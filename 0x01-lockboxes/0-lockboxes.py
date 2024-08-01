@@ -19,4 +19,3 @@ def canUnlockAll(boxes):
             unseenBoxes = unseenBoxes.union(boxes[boxId])
             seenBoxes.add(boxId)
     return n == len(seenBoxes)
-
